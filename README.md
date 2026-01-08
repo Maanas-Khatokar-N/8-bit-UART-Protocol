@@ -71,7 +71,7 @@ The testbench applies the following stimuli:
 4. **Byte 3:** Sends `0x77` and waits for reception.
 
 ### Waveform Result:
-*(`![Waveform](images/uart_waveform.png)`)*
+*(`![Waveform](uart_waveform.png)`)*
 
 > **Note:** The simulation generates a `uart_waveform.vcd` file which can be viewed using GTKWave.
 
