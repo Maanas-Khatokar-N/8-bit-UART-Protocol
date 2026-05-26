@@ -82,11 +82,11 @@ The testbench applies the following stimuli:
 ### Using Icarus Verilog
 1. **Compile the design:**
 ```bash
-   iverilog -o uart_sim uart_tb.v uart_top.v transmitter.v receiver.v baudRate_generator.v
+   iverilog -o uart_sim.vvp tb/uart_tb.v rtl/uart_top.v rtl/transmitter.v rtl/receiver.v rtl/baudRate_generator.v
 ```
 2. **Run the simulation:**
 ```bash
-   vvp uart_sim
+   vvp uart_sim.vvp
 ```
 3. **View Waveforms:**
 ```bash
